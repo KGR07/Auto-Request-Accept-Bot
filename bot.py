@@ -22,7 +22,8 @@ async def start(client: pr0fess0r_99, message: Message):
       ],[
    
       ]]
-    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.
+    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.MADE BY Dr.KGR
+                             
 
 @pr0fess0r_99.on_chat_join_request(filters.chat(CHAT_ID))
 async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
