@@ -18,11 +18,9 @@ async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
     button=[[
      
-            InlineKeyboardButton("𝚂𝚄𝙿𝙿𝙾𝚁𝚃", url=https://t.me/+T6wmxK0xxpExNzA1
-      ],[
-   
-      ]]
-    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.MADE BY Dr.KGR
+            InlineKeyboardButton("Queries", url=https://@RadonQueries_bot
+      ]
+    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.MADE BY DrKGR
                              
 
 @pr0fess0r_99.on_chat_join_request(filters.chat(CHAT_ID))
