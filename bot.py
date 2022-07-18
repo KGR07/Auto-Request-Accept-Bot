@@ -2,8 +2,7 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, User, ChatJoinRequest
 
-pr0fess0r_99=Client(
-
+pr0fess0r_99=Client
     bot_token = os.environ["BOT_TOKEN"],
     api_id = int(os.environ["API_ID"]),
     api_hash = os.environ["API_HASH"]
@@ -17,10 +16,9 @@ APPROVED = os.environ.get("APPROVED_WELCOME", "on").lower()
 async def start(client: pr0fess0r_99, message: Message):
     approvedbot = await client.get_me() 
     button=[[
-     
-            InlineKeyboardButton("Queries", url=https://@RadonQueries_bot
-      ]
-    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.MADE BY DrKGR
+           InlineKeyboardButton("Queries", url=https://@RadonQueries_bot)
+      ]]
+    await message.reply_text(text="**HELLO..⚡\n\nIAM A SIMPLE REQUEST ACCEPT BOT.MADE BY DrKGR)
                              
 
 @pr0fess0r_99.on_chat_join_request(filters.chat(CHAT_ID))
